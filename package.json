@@ -1,0 +1,30 @@
+{
+  "name": "qian",
+  "version": "1.0.0",
+  "description": "SOmething something money",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinazheng/qian.git"
+  },
+  "author": "Tina Zheng and Mike Shi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinazheng/qian/issues"
+  },
+  "homepage": "https://github.com/tinazheng/qian#readme",
+  "dependencies": {
+    "alt": "^0.17.3",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "gulp-babel": "^5.2.1",
+    "gulp-browserify": "^0.5.1"
+  }
+}
