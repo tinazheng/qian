@@ -9,10 +9,12 @@ gulp.task("babel", function () {
 });
 
 gulp.task('browserify', function() {
-    gulp.src('index.js');
+    gulp.src('public/javascripts/build/PageContainer.js')
         .pipe(browserify({
           insertGlobals : true,
           debug : !gulp.env.production
         }))
-        .pipe(gulp.dest('./build/js'))
+        .pipe(gulp.dest('public/javascripts/bundle'))
 });
+
+gulp.task('default', ['babel', 'browserify']);
